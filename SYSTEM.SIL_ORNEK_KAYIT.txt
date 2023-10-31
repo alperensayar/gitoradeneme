@@ -1,0 +1,9 @@
+PROCEDURE        sil_ornek_kayit(p_id NUMBER) AS
+
+BEGIN
+
+    DELETE FROM test_table WHERE id = p_id;
+
+    COMMIT;
+
+END sil_ornek_kayit;
