@@ -1,0 +1,17 @@
+PROCEDURE        insert_data_with_uppercase_name(p_id NUMBER, p_name VARCHAR2, p_other_columns VARCHAR2) AS
+
+BEGIN
+
+    
+
+    p_name := UPPER(p_name);
+
+    
+
+    
+
+    INSERT INTO test_table(id, name, other_columns)
+
+    VALUES (p_id, p_name, p_other_columns);
+
+END
