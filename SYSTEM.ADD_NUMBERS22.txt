@@ -1,0 +1,15 @@
+PROCEDURE        add_numbers22
+
+    (num1 NUMBER, num2 NUMBER)
+
+    AS
+
+      sum_number NUMBER;
+
+    BEGIN
+
+      sum_number := num1 + num2;
+
+      DBMS_OUTPUT.PUT_LINE('The sum is sadfdsafdsfdsfdsf' || sum_number);
+
+    END;
