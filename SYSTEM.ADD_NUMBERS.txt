@@ -10,6 +10,6 @@ PROCEDURE        add_numbers
 
       sum_number := num1 + num2;
 
-      DBMS_OUTPUT.PUT_LINE('The sum is ' || sum_number);
+      DBMS_OUTPUT.PUT_LINE('The sum is of these kind of things ' || sum_number);
 
     END;
