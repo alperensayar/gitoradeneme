@@ -1,18 +1,10 @@
 [
     {
-        "ID": 2,
-        "NAME": "Example 2",
-        "AGE": null,
-        "DESCRIPTION": "Example 2 description",
-        "MY_COLUMN": null,
-        "MY_COLUMN2": null
+        "ID": 1,
+        "DATA": "test1"
     },
     {
-        "ID": 3,
-        "NAME": "EXAMPLE 3",
-        "AGE": null,
-        "DESCRIPTION": "Example 3 description",
-        "MY_COLUMN": null,
-        "MY_COLUMN2": null
+        "ID": 1,
+        "DATA": "test1"
     }
 ]
