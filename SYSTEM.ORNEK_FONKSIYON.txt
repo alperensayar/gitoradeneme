@@ -1,13 +1,21 @@
-FUNCTION ornek_fonksiyon(p_id NUMBER) RETURN VARCHAR2 AS
+FUNCTION ORNEK_FONKSIYON(
 
-    v_name VARCHAR2(255)
+    P_ID NUMBER
+
+) RETURN VARCHAR2 AS
+
+    V_NAME VARCHAR2(255) 
 
 BEGIN
 
+    SELECT
 
+        NAME INTO V_NAME
 
-    SELECT name INTO v_name FROM test_table WHERE      id = p_id
+    FROM
 
-    RETURN v_name
+        TEST_TABLE
 
-END ornek_fonksiyon
+    WHERE
+
+        ID = P_ID RETURN V_NAME END ORNEK_FONKSIYON;
